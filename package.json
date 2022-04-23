@@ -1,0 +1,33 @@
+{
+  "name": "@mcbeutils/claimapi",
+  "author": "PMK744",
+  "repository": "https://github.com/MCBE-Utilities/ClaimAPI",
+  "homepage": "https://github.com/MCBE-Utilities/ClaimAPI",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "beapiModule": true,
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
+  "include": [
+    "scripts",
+    "manifest.json",
+    "animation_controllers",
+    "entities",
+    "pack_icon.png"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && beapi build",
+    "bundle": "tsc && beapi bundle"
+  },
+  "dependencies": {
+    "beapi-core": "^2.4.0",
+    "typescript": "^4.5.4"
+  }
+}
