@@ -6,7 +6,7 @@ The module can be either imported as a Minecraft Bedrock Addon or be used within
 
 ## Installing as an Addon
 * Requirements
-  * [Minecraft Bedrock ^1.18.10.x](https://minecraft.net/)
+  * [Minecraft Bedrock ^1.18.30.x](https://minecraft.net/)
 
 To download and install, download the latest .mcpack release from [here](https://github.com/MCBE-Utilities/ClaimAPI/releases/tag/1.0.0).
 Once you have downloaded the addon, import the .mcpack into Minecraft Bedrock.
