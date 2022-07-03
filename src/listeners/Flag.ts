@@ -42,7 +42,8 @@ class Flag extends AbstactListener {
           const location = player.getLocation()
           if (!blocks.find((cord) => cord[0] === location.x && cord[2] === location.z)) {
             if (!this.flagged.has(player)) continue
-            const claim = this.flagged.get(player).claim
+            const _claim = this.flagged.get(player).claim
+            if(_claim.id !== claim.id) continue;
             // Emit the player that left the claim.
             this.claims.emit('LeftClaim', {
               player,
